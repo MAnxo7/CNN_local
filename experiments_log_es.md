@@ -258,4 +258,4 @@ Best eval loss: 0.4111 | Best train loss: 0.3121 | GAP: 0.0989 | Epoch: 67
 Best eval acc : 0.8650 | Best train acc : 0.8897 | GAP: 0.0247 | Epoch: 59
 Average epoch time: 9.6990
 
-**En conclusión, en mis experimentos, para que el modelo siguiese mejorar hay que añadir más profundidad ya que mejoras en la capacidad o en otros par**á**metros no parece haber mejora o incluso empeora.**
+**En conclusión, en mis experimentos, para que el modelo siguiese mejorando hay que añadir más profundidad ya que mejoras en la capacidad o en otros par**á**metros no parece haber mejora o incluso empeora.**
