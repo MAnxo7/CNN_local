@@ -105,7 +105,7 @@ python3 main.py --disable-sched
 ### Continue training from a checkpoint
 
 ```bash
-python3 main.py --ckpt-path "runs/EXPERIMENTO 21/last.pt" --epochs 70
+python3 main.py --ckpt-path "runs/EXPERIMENT 21/last.pt" --epochs 70
 ```
 
 The script loads the checkpoint and trains only the remaining epochs.
@@ -113,7 +113,7 @@ The script loads the checkpoint and trains only the remaining epochs.
 ### Evaluate from a checkpoint
 
 ```bash
-python3 main.py --eval-only --ckpt-path "runs/EXPERIMENTO 21/best.pt"
+python3 main.py --eval-only --ckpt-path "runs/EXPERIMENT 21/best.pt"
 ```
 
 ### Inference on a single image
@@ -125,7 +125,7 @@ Evaluate + inference (recommended):
 ```bash
 python3 main.py \
   --eval-only \
-  --ckpt-path "runs/EXPERIMENTO 21/best.pt" \
+  --ckpt-path "runs/EXPERIMENT 21/best.pt" \
   --image-path "/path/to/image.jpg"
 ```
 
@@ -174,6 +174,7 @@ High-level summary (details in `experiments_log.md`):
 ## License
 
 MIT
+
 
 
 
